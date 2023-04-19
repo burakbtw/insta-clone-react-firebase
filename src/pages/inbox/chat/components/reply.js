@@ -12,10 +12,10 @@ export default function Reply({ setMessages }) {
 			...messages,
 			{
 				from: {
-					id: 'PViTN3T52Kha9N927LkjTvKz63',
+					id: 'g7CEreVco2atoU4IyVGkOfaDVzg1',
 					name: 'Burak Erdaloğlu',
 					username: 'burakerdaloglu',
-					avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
+					avatar: 'https://pbs.twimg.com/media/FtozV8DX0AA6Htx?format=jpg&name=medium'
 				},
 				message
 			},

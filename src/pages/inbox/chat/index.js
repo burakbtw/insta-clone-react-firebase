@@ -6,146 +6,75 @@ import {useState} from "react";
 export default function Chat() {
 
 	const user = {
-		name: 'Tayfun Erbilen',
-		avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
+		name: 'Burak Erdaloğlu',
+		avatar: 'https://imgs.search.brave.com/Mf1kECO-vGLaY65m6_tRwjjmctPmDIFUQ5ENg1skK8Y/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL3l0/Yy9BTUxuWnVfTVF3/N0RvUXgzdnltRzZ2/aTNaZkFZQnVORC1l/aWJrRGp6M3BKX3pB/PXM5MDAtYy1rLWMw/eDAwZmZmZmZmLW5v/LXJq'
 	}
 
 	const [messages, setMessages] = useState([
 		{
 			from: {
-				id: 'PViTN3T52Kha9N92YX7LkjTvKz63',
-				name: 'Tayfun Erbilen',
-				username: 'tayfunerbilen',
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
+				id: 'g7CEreVco2atoU4IyVGkOfaDVzg1',
+				name: 'Burak Erdaloğlu',
+				username: 'burakerdaloglu',
+				avatar: 'https://imgs.search.brave.com/Mf1kECO-vGLaY65m6_tRwjjmctPmDIFUQ5ENg1skK8Y/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL3l0/Yy9BTUxuWnVfTVF3/N0RvUXgzdnltRzZ2/aTNaZkFZQnVORC1l/aWJrRGp6M3BKX3pB/PXM5MDAtYy1rLWMw/eDAwZmZmZmZmLW5v/LXJq'
 			},
-			message: 'grup'
+			message: 'naber'
 		},
 		{
 			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
+				id: 'IMQ3jLeeP7UNWI2R6wCY4wCFJLl2',
+				name: 'turan',
+				username: 'turan',
+				avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/3645cf67ecb30736422f2576cc42754d.jpeg?x-expires=1681970400&x-signature=ZS20MElgTsMsgEwtRgj5LYC4L3U%3D'
 			},
-			message: 'test'
+			message: 'allah var gam yok'
 		},
 		{
 			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
+				id: 'IMQ3jLeeP7UNWI2R6wCY4wCFJLl2',
+				name: 'turan',
+				username: 'turan',
+				avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/3645cf67ecb30736422f2576cc42754d.jpeg?x-expires=1681970400&x-signature=ZS20MElgTsMsgEwtRgj5LYC4L3U%3D'
 			},
-			message: 'deneme'
+			message: 'Fenerbahçe seninle ölmeye geldik'
 		},
 		{
 			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
+				id: 'IMQ3jLeeP7UNWI2R6wCY4wCFJLl2',
+				name: 'turan',
+				username: 'turan',
+				avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/3645cf67ecb30736422f2576cc42754d.jpeg?x-expires=1681970400&x-signature=ZS20MElgTsMsgEwtRgj5LYC4L3U%3D'
 			},
-			message: 'adana'
+			message: 'ENNNERR VALANCİAAA'
 		},
 		{
 			from: {
-				id: 'PViTN3T52Kha9N92YX7LkjTvKz63',
-				name: 'Tayfun Erbilen',
-				username: 'tayfunerbilen',
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
+				id: 'g7CEreVco2atoU4IyVGkOfaDVzg1',
+				name: 'Burak Erdaloğlu',
+				username: 'burakerdaloglu',
+				avatar: 'https://imgs.search.brave.com/Mf1kECO-vGLaY65m6_tRwjjmctPmDIFUQ5ENg1skK8Y/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL3l0/Yy9BTUxuWnVfTVF3/N0RvUXgzdnltRzZ2/aTNaZkFZQnVORC1l/aWJrRGp6M3BKX3pB/PXM5MDAtYy1rLWMw/eDAwZmZmZmZmLW5v/LXJq'
 			},
-			message: 'w etw etkwe tokw eotk woetk woekt woket owekt owket okwe otkwe otke wotkew tokw etoke otk ept okwet powektpweoktwepotkweptokwetpokwet'
+			message: 'Medeniyet dediğin tek dişi kalmış canaver'
 		},
 		{
 			from: {
-				id: 'PViTN3T52Kha9N92YX7LkjTvKz63',
-				name: 'Tayfun Erbilen',
-				username: 'tayfunerbilen',
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
+				id: 'g7CEreVco2atoU4IyVGkOfaDVzg1',
+				name: 'Burak Erdaloğlu',
+				username: 'burakerdaloglu',
+				avatar: 'https://imgs.search.brave.com/Mf1kECO-vGLaY65m6_tRwjjmctPmDIFUQ5ENg1skK8Y/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL3l0/Yy9BTUxuWnVfTVF3/N0RvUXgzdnltRzZ2/aTNaZkFZQnVORC1l/aWJrRGp6M3BKX3pB/PXM5MDAtYy1rLWMw/eDAwZmZmZmZmLW5v/LXJq'
 			},
-			message: 'grup'
+			message: 'GEL DENEYELİM DİYORSUN OLUR MU YENİDEN'
 		},
 		{
 			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
+				id: 'IMQ3jLeeP7UNWI2R6wCY4wCFJLl2',
+				name: 'turan',
+				username: 'turan',
+				avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/3645cf67ecb30736422f2576cc42754d.jpeg?x-expires=1681970400&x-signature=ZS20MElgTsMsgEwtRgj5LYC4L3U%3D'
 			},
-			message: 'test'
+			message: 'RUHUMU OKŞUYOR İNCEDEN İNCEDEN'
 		},
-		{
-			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
-			},
-			message: 'deneme'
-		},
-		{
-			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
-			},
-			message: 'adana'
-		},
-		{
-			from: {
-				id: 'PViTN3T52Kha9N92YX7LkjTvKz63',
-				name: 'Tayfun Erbilen',
-				username: 'tayfunerbilen',
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
-			},
-			message: 'w etw etkwe tokw eotk woetk woekt woket owekt owket okwe otkwe otke wotkew tokw etoke otk ept okwet powektpweoktwepotkweptokwetpokwet'
-		},
-		{
-			from: {
-				id: 'PViTN3T52Kha9N92YX7LkjTvKz63',
-				name: 'Tayfun Erbilen',
-				username: 'tayfunerbilen',
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
-			},
-			message: 'grup'
-		},
-		{
-			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
-			},
-			message: 'test'
-		},
-		{
-			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
-			},
-			message: 'deneme'
-		},
-		{
-			from: {
-				id: 'H7UmMJXPGRMYWq4M58iDwYbGSHe2',
-				name: 'ömer',
-				username: 'Elwron',
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg'
-			},
-			message: 'adana'
-		},
-		{
-			from: {
-				id: 'PViTN3T52Kha9N92YX7LkjTvKz63',
-				name: 'Tayfun Erbilen',
-				username: 'tayfunerbilen',
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg'
-			},
-			message: 'w etw etkwe tokw eotk woetk woekt woket owekt owket okwe otkwe otke wotkew tokw etoke otk ept okwet powektpweoktwepotkweptokwetpokwet'
-		},
+		
 	])
 
 	return (

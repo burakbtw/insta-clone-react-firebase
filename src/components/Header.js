@@ -37,7 +37,7 @@ export default function Header() {
 						<Icon name="heart" size={24} />
 					</NavLink>
 					<NavLink to={`/${user.username}`}>
-						{({isActive}) => <img src="/no-avatar.jpeg" alt="" className={classNames({
+						{({isActive}) => <img src="https://yt3.googleusercontent.com/ytc/AL5GRJW42gGxZbhRvEri6QJsRIDwWwcKSyJDgAIJ_9SExw=s900-c-k-c0x00ffffff-no-rj" alt="" className={classNames({
 							"w-6 h-6 rounded-full": true,
 							"ring-1 ring-offset-1	ring-black": isActive
 						})}/>}

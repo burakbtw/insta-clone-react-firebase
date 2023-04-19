@@ -1,7 +1,7 @@
 export default function Header({ user }) {
 	return (
 		<header className="flex items-center px-24 gap-x-24 py-4 pb-10">
-			<img src="/no-avatar.jpeg" alt="" className="w-[150px] h-[150px] rounded-full"/>
+			<img src="https://yt3.googleusercontent.com/ytc/AL5GRJW42gGxZbhRvEri6QJsRIDwWwcKSyJDgAIJ_9SExw=s900-c-k-c0x00ffffff-no-rj" alt="" className="w-[150px] h-[150px] rounded-full"/>
 			<div>
 				<div className="mb-4">
 					<h1 className="text-[28px] font-light">{user.username}</h1>

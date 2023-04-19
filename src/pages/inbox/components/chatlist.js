@@ -8,27 +8,27 @@ export default function ChatList() {
 		{
 			id: 1,
 			user: {
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg',
-				name: 'Tayfun Erbilen'
+				avatar: 'https://imgs.search.brave.com/Mf1kECO-vGLaY65m6_tRwjjmctPmDIFUQ5ENg1skK8Y/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL3l0/Yy9BTUxuWnVfTVF3/N0RvUXgzdnltRzZ2/aTNaZkFZQnVORC1l/aWJrRGp6M3BKX3pB/PXM5MDAtYy1rLWMw/eDAwZmZmZmZmLW5v/LXJq',
+				name: 'Burak Erdaloğlu'
 			},
-			lastMessage: 'Selam tayfun!'
+			lastMessage: 'Ne anlatıyon be olum be abla'
 		},
 		{
 			id: 2,
 			user: {
-				avatar: 'https://pbs.twimg.com/profile_images/1064886121870561280/1Z8pZjhG_400x400.jpg',
-				name: 'Gökhan Kandemir'
+				avatar: 'https://pbs.twimg.com/profile_images/1427292844612595720/RC1YSvuT_400x400.jpg',
+				name: 'Yotuberlar'
 			},
 			unread: true,
-			lastMessage: 'yeni video attım, baktın mı?'
+			lastMessage: 'Mustafa: yeni video attım, baktınız mı?'
 		},
 		{
 			id: 3,
 			user: {
-				avatar: 'https://pbs.twimg.com/profile_images/1526647892726915073/tN9rYw3V_400x400.jpg',
-				name: 'Tayfun Erbilen'
+				avatar: 'https://pbs.twimg.com/media/FtozV8DX0AA6Htx?format=jpg&name=medium',
+				name: 'Erdeniz Erdaloğlu'
 			},
-			lastMessage: 'Selam tayfun!'
+			lastMessage: 'Ne anlatıyon be abla be abii!'
 		}
 	]
 
@@ -36,7 +36,7 @@ export default function ChatList() {
 		<div className="h-[calc(100%-60px)] overflow-auto py-3">
 			<header className="flex items-center justify-between px-5 mb-1">
 				<h6 className="text-base font-semibold">Messages</h6>
-				<button className="text-brand text-sm font-semibold">16 requests</button>
+				<button className="text-brand text-sm font-semibold">28 requests</button>
 			</header>
 			{chats.map(chat => (
 				<NavLink
